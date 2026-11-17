@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ukkWeb.css">
+</head>
+<body>
+    <header>
+        <h1>hallo masuk web saya</h1>
+        <nav>
+            <ul>
+                <a href="">beranda</a>
+                <a href="">kembali</a>
+            </ul>
+        </nav>
+    </header>
+
+        <section class="produk" id="products">
+        <h2>tes ukk </h2>
+
+        <div class="produk-container">
+
+            <div class="produk-card">
+                <img src="https://i.pinimg.com/736x/b2/eb/f2/b2ebf2bbdb1f992668469d5fae247771.jpg" width="250" height="250">
+                <h3>gula</h3>
+                <p class="price">Rp 5.000</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="produk-card">
+                <img src="https://i.pinimg.com/736x/df/0b/7f/df0b7f681ad6556cdd98dfbf8eb1648b.jpg" width="250" height="250">
+                <h3>Beras</h3>
+                <p class="price">Rp 54.000</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="produk-card">
+                <img src="https://i.pinimg.com/736x/6a/b0/d0/6ab0d057c4fbd27f51a2685974f3dbba.jpg" width="250" height="250">
+                <h3>Kopi Kapal api</h3>
+                <p class="price">Rp 3.000</p>
+                <button>Buy Now</button>
+            </div>
+
+        </div>
+    </section>
+    
+     <section class="kartu" id="contact">
+
+        <div class="kartu-form">
+            <h2>kirim pesan</h2>
+
+            <form>
+            
+                <label>isi name</label>
+                <input type="text" placeholder="Enter your name" required>
+            
+                <label>isi nomor hp</label>
+                <input 
+                type="tel"
+                id="phone5"
+                name="phone"
+                required
+                pattern="[0-9]{10,13}"
+                title="Nomor HP harus terdiri dari 10 sampai 13 angka"
+                +placeholder="Masukkan nomor HP">
+          
+                <label>produk</label>
+                <select id="label" name="produk">
+                <option value="Beras">Beras</option>
+                <option value="Gula">Gula</option>
+                <option value="Kopi">Kopi</option>
+            
+                <label>jenis kelamin:</label>                
+                <input type="radio" name="dana" value="l"> Dana
+                <input type="radio" name="Gopay" value="p"> Gopay
+            
+                <label>Alamat</label>
+                <textarea placeholder="enter your alamat" required></textarea>
+            
+                
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+    </section>
+
+    <!-- butuh menambahkan gambar, harga dan from kurang lengkap -->
+    <footer>
+        <h3>Web desain</h3>
+        <p>BY: axew</p>
+        <p>2026 menuju bisa</p>
+    </footer>
+
+</body>
+</html>       
+
